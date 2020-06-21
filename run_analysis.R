@@ -1,4 +1,10 @@
-rm(list = ls()) # just to clear the environment
+# to analyse data for Data Science Specialization course, J Hopkins University
+# Getting and Cleaning Data, Peer Review
+# 2020.06.21 Saverio Tufano
+# !!!!READ ME!!!! #######
+# Create a Folder called "Samsung Data" and put all the excercise files there
+
+#rm(list = ls()) # just to clear the environment
 
 ### PART1: Merges the training and the test sets to create one data set
 c_names <- read.table("./Samsung Data/features.txt", header = FALSE, sep = "", colClasses = "character") # read feature names (they will be assigned as 561 column names)
